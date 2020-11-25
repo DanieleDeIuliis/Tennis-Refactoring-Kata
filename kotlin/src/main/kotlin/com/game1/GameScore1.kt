@@ -1,3 +1,5 @@
+package com.game1
+
 class GameScore1(private var playerOneScore: Int = 0, private var playerTwoScore: Int = 0) {
 
     fun updatePlayerScore(playerName: String) {

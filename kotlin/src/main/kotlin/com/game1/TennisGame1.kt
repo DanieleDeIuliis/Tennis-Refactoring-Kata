@@ -1,3 +1,7 @@
+package com.game1
+
+import TennisGame
+
 class TennisGame1 : TennisGame {
     private val score: GameScore1 = GameScore1()
 

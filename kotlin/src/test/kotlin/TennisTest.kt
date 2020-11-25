@@ -1,3 +1,5 @@
+import com.game1.TennisGame1
+import com.game2.TennisGame2
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -68,7 +70,7 @@ class TennisTest(private val player1Score: Int, private val player2Score: Int, p
 
     @Test
     fun checkAllScoresTennisGame2() {
-        val game = TennisGame2("player1", "player2")
+        val game = TennisGame2()
         checkAllScores(game)
     }
 
