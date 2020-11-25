@@ -1,5 +1,6 @@
 import com.game1.TennisGame1
 import com.game2.TennisGame2
+import com.game3.TennisGame3
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import org.junit.runner.RunWith
